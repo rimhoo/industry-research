@@ -7,6 +7,9 @@ description: >
   industry analysis、competitive landscape、due diligence。
   本 SKILL 提供 53 个原子化研究单元(ARU)，能组合出超越高盛/麦肯锡/摩根士丹利
   标准的系统性行业研究输出。
+repository: "https://github.com/rimhoo/industry-research"
+default_branch: "master"
+published_at: "2026-06-11"
 ---
 
 # 行业研究原子化方法论 IRAM v2.0
