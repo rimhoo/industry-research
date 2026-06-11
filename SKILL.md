@@ -1,5 +1,5 @@
 ---
-name: industry-research-atomic
+name: industry-research
 description: >
   行业调研原子化方法论 (IRAM v2.0)。当用户需要对任何行业进行深度调研、
   撰写行业研报、分析市场机会、评估竞争格局、理解产业链时，强制使用本 SKILL。

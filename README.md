@@ -1,4 +1,4 @@
-# industry-research-atomic
+# industry-research
 
 > 行业调研原子化方法论 (IRAM v2.0)。当用户需要对任何行业进行深度调研、 撰写行业研报、分析市场机会、评估竞争格局、理解产业链时，强制使用本 SKILL。
 
@@ -53,7 +53,7 @@ M01 → M02 → M05 → C01 → F01 → T01 → R01 → [最终综合]
 ## 文件结构
 
 ```
-industry-research-atomic/
+industry-research/
 ├── references/                # 参考文档 / Reference documentation
 │   └──   quality-gates.md
 │   └──   report-templates.md
@@ -61,6 +61,18 @@ industry-research-atomic/
 │   └──   synthesis-engine.md
 ├── SKILL.md                   # 技能主文件 / Main skill definition
 ```
+## 全平台兼容 / Cross-Platform Compatibility
+
+本技能的核心方法论（CORE.md + references/）是纯知识内容，可在任何 AI 平台使用。详见 `platform/` 目录下的各平台适配文件。
+
+| 平台 | 适配文件 | 使用方式 |
+|------|---------|---------|
+| **Claude Code** | `SKILL.md` | 直接加载 |
+| **Cursor** | `platform/cursor.rules` | 复制到 `.cursor/rules/` |
+| **GitHub Copilot / Codex** | `platform/copilot.instructions.md` | 配置为 Copilot 指令 |
+| **OpenClaw** | `platform/openclaw.skill.yaml` | 导入 OpenClaw |
+| **Hermes** | `platform/hermes.md` | 配置为 Hermes agent skill |
+| **任何 AI** | `platform/generic.prompt.md` | 直接粘贴给任意 AI 助手 |
 
 ## What is this
 
