@@ -1,0 +1,65 @@
+# ─── Python ───────────────────────────────────
+__pycache__/
+*.py[cod]
+*.pyo
+*.pyd
+.Python
+build/
+dist/
+*.egg-info/
+*.egg
+.eggs/
+
+# 虚拟环境
+.venv/
+venv/
+ENV/
+env/
+.env
+.env.local
+
+# ─── macOS ────────────────────────────────────
+.DS_Store
+.AppleDouble
+.LSOverride
+._*
+.Spotlight-V100
+.Trashes
+
+# ─── Windows ──────────────────────────────────
+Thumbs.db
+Thumbs.db:encryptable
+ehthumbs.db
+ehthumbs_vista.db
+desktop.ini
+$RECYCLE.BIN/
+
+# ─── Linux ────────────────────────────────────
+*~
+.fuse_hidden*
+.directory
+.Trash-*
+
+# ─── IDE / Editor ─────────────────────────────
+.vscode/
+.idea/
+*.swp
+*.swo
+*.suo
+*.user
+*.sln.docstates
+.vs/
+*.sublime-project
+*.sublime-workspace
+
+# ─── 测试 & 覆盖率 ────────────────────────────
+.coverage
+.pytest_cache/
+htmlcov/
+.tox/
+.mypy_cache/
+.ruff_cache/
+
+# ─── 日志 ─────────────────────────────────────
+*.log
+logs/
