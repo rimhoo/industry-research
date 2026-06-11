@@ -10,7 +10,6 @@ description: >
 repository: "https://github.com/rimhoo/industry-research"
 default_branch: "master"
 published_at: "2026-06-11"
-e2e_restart: "FINAL-2026-06-11-1930"
 ---
 
 # 行业研究原子化方法论 IRAM v2.0
