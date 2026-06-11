@@ -10,7 +10,6 @@ description: >
 repository: "https://github.com/rimhoo/industry-research"
 default_branch: "master"
 published_at: "2026-06-11"
-auto_sync_probe: "E2E-2026-06-11-1735"
 ---
 
 # 行业研究原子化方法论 IRAM v2.0
@@ -420,3 +419,4 @@ industry-research-skill/
 > **使用说明**：Claude Code 中读取本 SKILL.md 后，根据用户需求选择对应流水线，
 > 逐步 `view` 所需 reference 文件。不需要一次性加载所有文件。
 > 每完成一个ARU，更新执行记录，向用户汇报进度和数据质量评估。
+0
